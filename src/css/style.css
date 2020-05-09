@@ -1,0 +1,99 @@
+body{
+    background-color: #F5F8FA;
+}
+
+*{
+    font-family: Arial;
+}
+
+input{
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    border: 1px solid rgb(71, 71, 71);
+}
+
+.btn{
+
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: none;
+    transition: 0.2s;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn-sm{
+    font-size: 13px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn-blue{
+    background-color: rgb(48, 83, 255);
+    color: white;
+}
+
+.btn-red{
+    background-color: rgb(255, 67, 67);
+    color: white;
+}
+
+.btn-green{
+    background-color: rgb(36, 192, 49);
+    color: white;
+}
+
+.btn-yellow{
+    background-color: #FFC107;
+}
+
+.btn-gray{
+    background-color: #4a5256;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    /* height: 250px; */
+    background-color: white;
+    box-shadow: 1px 4px 7px -3px black;
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px;
+    margin: 20px;
+}
+
+.todo-list-item{
+
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list-item li{
+    margin: 14px;
+    background: #23a4ff;
+    padding: 10px;
+    /* box-shadow: 0px 3px 9px -6px black; */
+    border-radius: 3px;
+    color: white;
+    border: 1px solid #264fff
+}
+
+.p-info{
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    color: #616161;
+}
